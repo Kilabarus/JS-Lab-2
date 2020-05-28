@@ -1,94 +1,83 @@
 * {
-  border: 0px solid blue;
   font-size: 22px;
   font-family: Arial, Helvetica, sans-serif;
+  color: white;
 }
 
 body {
   background: #242424;
 }
 
-div {
-  border: 0px solid blue;
-}
-
-.game {
+#game {
   padding-top: 100px;
-  width: 1120px;
+  margin-top: 100px;
+  width: 1100px;
   height: 600px;
   margin: auto;
 }
 
-.game > div {
-  float: left;
-}
-
-.mainBlock > div {
+#game > div, .mainBlock > div {
   float: left;
 }
 
 .mainBlock {
-  border: 0px solid red;
   height: 100%;
   width: 540px;
 }
 
 .infoBlock {
+  width: 550px;
   height: 100%;
   margin-left: 10px;
-  width: 550px;
 }
 
 #listOfPersons {
   width: 100%;
   height: 86%;
-  overflow-y: scroll;
-
   background-color: #2F2F2F;
+  overflow-y: scroll;  
 }
 
 #listOfPersons::-webkit-scrollbar {
   display: none;
 }
 
+.rightAccept {
+  border: 2px solid greenyellow;
+}
+
+.wrongAccept {
+  border: 2px solid red;
+}
+
 .person {
-  margin-left: 10px;
-  margin-top: 10px;
-  padding-top: 2%;
-  padding-left: 2%;
   width: 510px;
   height: 165px;
-  
-
+  margin-top: 10px;
+  margin-left: 10px;
+  padding-top: 2%;
+  padding-left: 2%;
   background-color: #333333;
+}
 
-  color: white;
+#accept, #decline {
+  width: 49%; 
+  height: 60px;
+  margin-top: 10px;
+  line-height: 60px;
+  font-size: 50px;
+  text-align: center;
+  background-color: #333333;
+  cursor: pointer;
 }
 
 #accept {
-  background-color: #333333;
   color: greenyellow;
-  font-size: 50px;
-  text-align: center;
-  line-height: 60px;
-  margin-top: 10px;
   margin-left: 2%;
-  height: 60px;
-  width: 49%; 
-  cursor: pointer;
 }
 
 #decline {
-  background-color: #333333;
   color: red;
-  font-size: 50px;
-  text-align: center;
-  line-height: 60px;
-
-  margin-top: 10px;
-  height: 60px;
-  width: 49%;
-  cursor: pointer;
 }
 
 ol > li {
@@ -104,20 +93,18 @@ ul, li, ol, .rules {
 }
 
 .rules {
-  background-color: #2F2F2F;
-  color: white;
-
-  font-weight: bold;
-  padding-left: 16px;
-  padding-top: 10px;
   width: 530px;
   height: 290px;
+  padding-top: 10px;
+  padding-left: 16px;
+  font-weight: bold;
+  background-color: #2F2F2F;
 }
 
 .rulesList {
-  font-weight: normal;
   margin-top: 0px;
   padding-left: 22px;
+  font-weight: normal;
 }
 
 .rulesSubList {
@@ -129,25 +116,30 @@ ul, li, ol, .rules {
   width: 530px;
   height: 140px;
   margin-top: 10px;
-  padding-left: 16px;
   padding-top: 10px;
+  padding-left: 16px;
   font-size: 26px;
-  color: white;
   background-color: #2F2F2F;
 }
 
 #timer {
-  font-size: 90px;
-  line-height: 116px;
-  text-align: center;
-  background-color: #2F2F2F;
-  color: white;
   width: 546px;
   height: 116px;
   margin-top: 10px;
+  line-height: 116px;
+  text-align: center;
+  font-size: 90px;
+  background-color: #2F2F2F;
 }
 
-
+.end {
+  width: 1120px;
+  height: 600px;
+  padding-top: 200px;
+  margin: auto;
+  font-size: 80px;
+  text-align: center;
+}
 
 
 
