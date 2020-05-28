@@ -1,2 +1,148 @@
-/* Add your styles here */
+* {
+  border: 0px solid blue;
+  font-size: 22px;
+  font-family: Arial, Helvetica, sans-serif;
+}
 
+body {
+  background: #242424;
+}
+
+div {
+  border: 0px solid blue;
+}
+
+.game {
+  padding-top: 100px;
+  width: 1120px;
+  height: 600px;
+  margin: auto;
+}
+
+.game > div {
+  float: left;
+}
+
+.mainBlock > div {
+  float: left;
+}
+
+.mainBlock {
+  border: 0px solid red;
+  height: 100%;
+  width: 540px;
+}
+
+.infoBlock {
+  height: 100%;
+  margin-left: 10px;
+  width: 550px;
+}
+
+.listOfPersons {
+  width: 100%;
+  height: 86%;
+  overflow-y: scroll;
+
+  background-color: #2F2F2F;
+}
+
+.listOfPersons::-webkit-scrollbar {
+  display: none;
+}
+
+.person {
+  margin-left: 10px;
+  margin-top: 10px;
+  padding-top: 2%;
+  padding-left: 2%;
+  width: 510px;
+  height: 165px;
+  
+
+  background-color: #333333;
+
+  color: white;
+}
+
+.accept {
+  background-color: #333333;
+  color: greenyellow;
+  font-size: 50px;
+  text-align: center;
+  line-height: 60px;
+  margin-top: 10px;
+  margin-left: 2%;
+  height: 60px;
+  width: 49%; 
+  cursor: pointer;
+}
+
+.decline {
+  background-color: #333333;
+  color: red;
+  font-size: 50px;
+  text-align: center;
+  line-height: 60px;
+
+  margin-top: 10px;
+  height: 60px;
+  width: 49%;
+  cursor: pointer;
+}
+
+ol > li {
+  margin-top: 4px;
+}
+
+ol {
+  padding-top: 6px;
+}
+
+ul, li, ol, .rules {
+  font-size: 20px;
+}
+
+.rules {
+  background-color: #2F2F2F;
+  color: white;
+
+  font-weight: bold;
+  padding-left: 16px;
+  padding-top: 10px;
+  width: 530px;
+  height: 290px;
+}
+
+.rulesList {
+  font-weight: normal;
+  margin-top: 0px;
+  padding-left: 22px;
+}
+
+.rulesSubList {
+  padding-top: 4px;
+  padding-left: 20px;
+}
+
+.otherInfo {
+  width: 530px;
+  height: 140px;
+  margin-top: 10px;
+  padding-left: 16px;
+  padding-top: 10px;
+  font-size: 26px;
+  color: white;
+  background-color: #2F2F2F;
+}
+
+.timer {
+  font-size: 90px;
+  line-height: 116px;
+  text-align: center;
+  background-color: #2F2F2F;
+  color: white;
+  width: 546px;
+  height: 116px;
+  margin-top: 10px;
+}
