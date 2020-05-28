@@ -39,7 +39,7 @@ div {
   width: 550px;
 }
 
-.listOfPersons {
+#listOfPersons {
   width: 100%;
   height: 86%;
   overflow-y: scroll;
@@ -47,7 +47,7 @@ div {
   background-color: #2F2F2F;
 }
 
-.listOfPersons::-webkit-scrollbar {
+#listOfPersons::-webkit-scrollbar {
   display: none;
 }
 
@@ -65,7 +65,7 @@ div {
   color: white;
 }
 
-.accept {
+#accept {
   background-color: #333333;
   color: greenyellow;
   font-size: 50px;
@@ -78,7 +78,7 @@ div {
   cursor: pointer;
 }
 
-.decline {
+#decline {
   background-color: #333333;
   color: red;
   font-size: 50px;
@@ -125,7 +125,7 @@ ul, li, ol, .rules {
   padding-left: 20px;
 }
 
-.otherInfo {
+#otherInfo {
   width: 530px;
   height: 140px;
   margin-top: 10px;
@@ -136,7 +136,7 @@ ul, li, ol, .rules {
   background-color: #2F2F2F;
 }
 
-.timer {
+#timer {
   font-size: 90px;
   line-height: 116px;
   text-align: center;
@@ -146,3 +146,14 @@ ul, li, ol, .rules {
   height: 116px;
   margin-top: 10px;
 }
+
+
+
+
+
+
+
+
+
+
+
