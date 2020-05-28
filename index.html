@@ -2,11 +2,10 @@
 
 <html>
   <head>
-    <link rel="stylesheet" href="lib/style.css">    
+    <link rel="stylesheet" href="lib/style.css">       
   </head>
   <body>
-
-    <div class = "game">
+    <div id = "game">
       <div class = "mainBlock">
         <div id = "listOfPersons">         
         </div>
@@ -17,37 +16,29 @@
           ᐅ
         </div>        
       </div>
-
       <div class = "infoBlock">
         <div class = "rules">
           Правила пропуска человека:
           <ol class = "rulesList">
             <li>Страна соответствует городу,<br>в их написании нет ошибок</li>
-            <li>Указана одна из нижеперечисленных целей визита, время пребывания соответствует цели:</li>
-        
+            <li>Указана одна из нижеперечисленных целей визита, время пребывания соответствует цели:</li>        
             <ul class = "rulesSubList">
               <li>Работа – до 15 дней</li>
               <li>Дипломатия – до 10 дней</li>
               <li>Посещение родственников – до 5 дней</li>
               <li>Туризм – до 3 дней</li>
               <li>Шоппинг – до 1 дня</li>
-            </ul>
-        
+            </ul>        
             <li>Дата въезда соответствует сегодняшней дате</li>
           </ol>
         </div>
-
-        <div id = "otherInfo">
-          Осталось пропустить людей: 30<br><br>
-          Проверено людей: 0<br>
-          Ошибок: 0<br>
+        <div id = "otherInfo">          
         </div>
-
         <div id = "timer">
           10
         </div>
       </div>
     </div>
-    <script src="lib/script.js"></script>
+    <script src="lib/script.js"></script> 
   </body>
 </html>
