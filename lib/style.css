@@ -2,6 +2,7 @@
   border: 0px solid blue;
   font-size: 22px;
   font-family: Arial, Helvetica, sans-serif;
+  color: white;
 }
 
 body {
@@ -12,14 +13,26 @@ div {
   border: 0px solid blue;
 }
 
-.game {
-  padding-top: 100px;
+.end {
+  margin: auto;
+  height: 600px;
   width: 1120px;
+  font-size: 100px;
+  text-align: center;
+  line-height: 600px;
+}
+
+
+#game {
+  position: absolute;
+  top: 100px;
+  border: 5px solid blue;
+  width: 1100px;
   height: 600px;
   margin: auto;
 }
 
-.game > div {
+#game > div {
   float: left;
 }
 
@@ -49,6 +62,14 @@ div {
 
 #listOfPersons::-webkit-scrollbar {
   display: none;
+}
+
+.rightAccept {
+  border: 2px solid greenyellow;
+}
+
+.wrongAccept {
+  border: 2px solid red;
 }
 
 .person {
